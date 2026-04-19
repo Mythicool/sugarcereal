@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -60,27 +61,27 @@ body {
 .app-shell {
   position: relative;
   z-index: 1;
-  max-width: 1120px;
+  width: min(1120px, 100%);
   margin: 0 auto;
-  padding: 32px 18px 64px;
+  padding: clamp(14px, 3vw, 32px) clamp(10px, 2.2vw, 18px) clamp(30px, 4vw, 64px);
   display: grid;
   gap: 18px;
 }
 
 .hero {
-  background: linear-gradient(135deg, #103327 0%, #145b45 58%, #0d8f6f 100%);
-  color: #f6fffb;
-  border-radius: 20px;
-  padding: 26px 24px;
-  box-shadow: var(--shadow);
+  background: transparent;
+  border-radius: 18px;
+  padding: 0;
   animation: rise 320ms ease-out;
 }
 
 .logo-banner {
   display: block;
-  width: min(100%, 520px);
+  width: 100%;
   height: auto;
   object-fit: contain;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
 }
 
 .subtitle {
@@ -475,8 +476,11 @@ th {
   }
 
   .hero {
-    border-radius: 16px;
-    padding: 16px 14px;
+    border-radius: 14px;
+  }
+
+  .logo-banner {
+    border-radius: 14px;
   }
 
   .summary-grid {
@@ -541,8 +545,77 @@ th {
     padding: 7px 6px;
     font-size: 0.8rem;
   }
+}
 
-  table {
-    min-width: 640px;
+@media (max-width: 700px) {
+  .table-wrap {
+    overflow-x: visible;
   }
+
+  .ranking-table,
+  .sellable-table {
+    min-width: 0;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+  }
+
+  .ranking-table thead,
+  .sellable-table thead {
+    display: none;
+  }
+
+  .ranking-table tbody,
+  .sellable-table tbody {
+    display: grid;
+    gap: 8px;
+  }
+
+  .ranking-table tr,
+  .sellable-table tr {
+    display: block;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: #fbfffd;
+    padding: 8px 10px;
+  }
+
+  .ranking-table td,
+  .sellable-table td {
+    display: grid;
+    grid-template-columns: minmax(86px, 112px) 1fr;
+    gap: 8px;
+    border-bottom: 1px dashed #dbe8e1;
+    padding: 7px 2px;
+    font-size: 0.84rem;
+  }
+
+  .ranking-table td:last-child,
+  .sellable-table td:last-child {
+    border-bottom: 0;
+  }
+
+  .ranking-table td::before,
+  .sellable-table td::before {
+    color: var(--muted);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+  }
+
+  .ranking-table td:nth-child(1)::before { content: "Rank"; }
+  .ranking-table td:nth-child(2)::before { content: "Serial"; }
+  .ranking-table td:nth-child(3)::before { content: "Band"; }
+  .ranking-table td:nth-child(4)::before { content: "High"; }
+  .ranking-table td:nth-child(5)::before { content: "Lexical"; }
+  .ranking-table td:nth-child(6)::before { content: "Pattern"; }
+  .ranking-table td:nth-child(7)::before { content: "Lexical Hits"; }
+
+  .sellable-table td:nth-child(1)::before { content: "Serial"; }
+  .sellable-table td:nth-child(2)::before { content: "Sellability"; }
+  .sellable-table td:nth-child(3)::before { content: "High Signal"; }
+  .sellable-table td:nth-child(4)::before { content: "Top Pattern"; }
+  .sellable-table td:nth-child(5)::before { content: "Pattern Value"; }
+  .sellable-table td:nth-child(6)::before { content: "Pattern Count"; }
 }
