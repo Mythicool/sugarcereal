@@ -1,0 +1,268 @@
+serial,digits,pattern_name,pattern_detail,ebay_title
+03375863,03375863,3 OF A KIND,3,3 Of A Kind 3s Fancy Serial Number $1 Dollar Bill 03375863 2021
+03375863,03375863,A1Z26 LETTER MAPPING,repaired=OCCGEHFC; ignore0=CCGEHFC; zero_repairs=1,$1 Bill High-Signal Serial 03375863 2021
+03375863,03375863,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CGEH, GEHF, OCC, CGE, GEH, EHF]",$1 Bill High-Signal Serial 03375863 2021
+03375863,03375863,HIGH-SIGNAL SCORE,35/100 (LOW) | lexical=18 pattern=16,$1 Bill High-Signal Serial 03375863 2021
+04444439,04444439,5 IN A ROW,4,5 In A Row 4s  Fancy Serial Number $1 Bill 04444439 2021
+04444439,04444439,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 04444439 2021
+04444439,04444439,A1Z26 LETTER MAPPING,repaired=ODDDDDCI; ignore0=DDDDDCI; zero_repairs=1,$1 Bill High-Signal Serial 04444439 2021
+04444439,04444439,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[DDDDCI, ODD, DCI]",$1 Bill High-Signal Serial 04444439 2021
+04444439,04444439,HIGH-SIGNAL SCORE,43/100 (MEDIUM) | lexical=9 pattern=32,$1 Bill High-Signal Serial 04444439 2021
+70007691,70007691,FULL HOUSE,three 0s and two 7s,Full House Fancy Serial Number 70007691 $1 2021 One Dollar Bill
+70007691,70007691,3 IN A ROW,0,3 In A Row 0s  Fancy Serial Number $1 Bill 70007691 2021
+70007691,70007691,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 70007691 2021
+70007691,70007691,A1Z26 LETTER MAPPING,repaired=GOOOGFIA; ignore0=GGFIA; zero_repairs=3,$1 Bill High-Signal Serial 70007691 2021
+70007691,70007691,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[OGFI, GOO, OOG, OGF, GFI, FIA]",$1 Bill High-Signal Serial 70007691 2021
+70007691,70007691,HIGH-SIGNAL SCORE,34/100 (LOW) | lexical=13 pattern=18,$1 Bill High-Signal Serial 70007691 2021
+12342024,12342024,4-DIGIT LADDER,consecutive sequential run,$1 Bill Fancy Serial Ladder 4 Digit Ladder Run 12342024 2021
+12342024,12342024,FULL HOUSE,three 2s and two 4s,Full House Fancy Serial Number 12342024 $1 2021 One Dollar Bill
+12342024,12342024,3 OF A KIND,2,3 Of A Kind 2s Fancy Serial Number $1 Dollar Bill 12342024 2021
+12342024,12342024,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 12342024 2021
+12342024,12342024,A1Z26 LETTER MAPPING,repaired=ABCDBOBD; ignore0=ABCDBBD; zero_repairs=1,$1 Bill High-Signal Serial 12342024 2021
+12342024,12342024,LEXICAL SIGNAL MATCHES,"words=[none]; names=[BOB]; brands=[none]; readable=[DBOB, BOBD, ABC, DBO, BOB, OBD]",$1 Bill High-Signal Serial 12342024 2021
+12342024,12342024,HIGH-SIGNAL SCORE,45/100 (MEDIUM) | lexical=24 pattern=26,$1 Bill High-Signal Serial 12342024 2021
+44464235,44464235,3 IN A ROW,4,3 In A Row 4s LEADING Fancy Serial Number $1 Bill 44464235 2021
+44464235,44464235,4 OF A KIND,4,4 Of A Kind 4s Fancy Serial Number $1 Dollar Bill 44464235 2021
+44464235,44464235,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 44464235 2021
+44464235,44464235,A1Z26 LETTER MAPPING,repaired=DDDFDBCE; ignore0=DDDFDBCE; zero_repairs=0,$1 Bill High-Signal Serial 44464235 2021
+44464235,44464235,LEXICAL SIGNAL MATCHES,words=[none]; names=[none]; brands=[none]; readable=[BCE],$1 Bill High-Signal Serial 44464235 2021
+44464235,44464235,HIGH-SIGNAL SCORE,36/100 (LOW) | lexical=7 pattern=24,$1 Bill High-Signal Serial 44464235 2021
+55554143,55554143,FULL HOUSE - QUAD,four 5s and two 4s,Full House QUAD Fancy Serial Number 55554143 $1 2021 One Dollar Bill
+55554143,55554143,4 IN A ROW,5,4 In A Row 5s LEADING Fancy Serial Number $1 Bill 55554143 2021
+55554143,55554143,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 55554143 2021
+55554143,55554143,A1Z26 LETTER MAPPING,repaired=EEEEDADC; ignore0=EEEEDADC; zero_repairs=0,$1 Bill High-Signal Serial 55554143 2021
+55554143,55554143,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[EEEEDA, EEEED, EEDAD, EDADC, EEDA, EDAD]",$1 Bill High-Signal Serial 55554143 2021
+55554143,55554143,HIGH-SIGNAL SCORE,49/100 (MEDIUM) | lexical=32 pattern=26,$1 Bill High-Signal Serial 55554143 2021
+85673107,85673107,NO NOTABLE PATTERN,,Fancy Serial Number $1 Bill 85673107 2021
+85673107,85673107,A1Z26 LETTER MAPPING,repaired=HEFGCAOG; ignore0=HEFGCAG; zero_repairs=1,$1 Bill High-Signal Serial 85673107 2021
+85673107,85673107,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[HEFG, CAOG, HEF, EFG, GCA, CAO]",$1 Bill High-Signal Serial 85673107 2021
+85673107,85673107,HIGH-SIGNAL SCORE,29/100 (LOW) | lexical=18 pattern=8,$1 Bill High-Signal Serial 85673107 2021
+02839119,02839119,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 02839119 2021
+02839119,02839119,A1Z26 LETTER MAPPING,repaired=OBHCIAAI; ignore0=BHCIAAI; zero_repairs=1,$1 Bill High-Signal Serial 02839119 2021
+02839119,02839119,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[OBH, HCI, CIA]",$1 Bill High-Signal Serial 02839119 2021
+02839119,02839119,HIGH-SIGNAL SCORE,26/100 (LOW) | lexical=7 pattern=10,$1 Bill High-Signal Serial 02839119 2021
+00001641,00001641,FULL HOUSE - QUAD,four 0s and two 1s,Full House QUAD Fancy Serial Number 00001641 $1 2021 One Dollar Bill
+00001641,00001641,4 IN A ROW,0,4 In A Row 0s LEADING Fancy Serial Number $1 Bill 00001641 2021
+00001641,00001641,4-DIGIT LOW SERIAL NUMBER,"#1,641",FOUR DIGIT LOW SERIAL NUMBER 🔥 1641 Quad Zero $1 Bill FANCY 00001641
+00001641,00001641,LEADING QUAD ZEROS (4 zeros),quad 0000 prefix,Leading Quad 0s Low Fancy Serial Number 00001641 $1 2021 One Dollar Bill
+00001641,00001641,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 00001641 2021
+00001641,00001641,A1Z26 LETTER MAPPING,repaired=OOOOAFDA; ignore0=AFDA; zero_repairs=4,$1 Bill High-Signal Serial 00001641 2021
+00001641,00001641,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[OOOOAF, AFDA, OAF, AFD, FDA]",$1 Bill High-Signal Serial 00001641 2021
+00001641,00001641,HIGH-SIGNAL SCORE,39/100 (LOW) | lexical=10 pattern=26,$1 Bill High-Signal Serial 00001641 2021
+31555244,31555244,FULL HOUSE,three 5s and two 4s,Full House Fancy Serial Number 31555244 $1 2021 One Dollar Bill
+31555244,31555244,3 IN A ROW,5,3 In A Row 5s  Fancy Serial Number $1 Bill 31555244 2021
+31555244,31555244,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 31555244 2021
+31555244,31555244,A1Z26 LETTER MAPPING,repaired=CAEEEBDD; ignore0=CAEEEBDD; zero_repairs=0,$1 Bill High-Signal Serial 31555244 2021
+31555244,31555244,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CAE, EEB, EBD]",$1 Bill High-Signal Serial 31555244 2021
+31555244,31555244,HIGH-SIGNAL SCORE,34/100 (LOW) | lexical=13 pattern=18,$1 Bill High-Signal Serial 31555244 2021
+81887188,81887188,TRINARY,1s 7s & 8s,**TRUE TRINARY** $1 SERIES 2021 5 OF A KIND 8s 81887188 FANCY SERIAL NUMBER
+81887188,81887188,5 OF A KIND,8,5 Of A Kind 8s Fancy Serial Number $1 Dollar Bill 81887188 2021
+81887188,81887188,BOOKENDS,8s at each end,Bookends Fancy Serial Number $1 Dollar Bill 81887188 2021
+81887188,81887188,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 81887188 2021
+81887188,81887188,A1Z26 LETTER MAPPING,repaired=HAHHGAHH; ignore0=HAHHGAHH; zero_repairs=0,$1 Bill High-Signal Serial 81887188 2021
+81887188,81887188,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[HAHH, HGAH, GAHH, HAH, AHH, HGA]",$1 Bill High-Signal Serial 81887188 2021
+81887188,81887188,HIGH-SIGNAL SCORE,55/100 (MEDIUM-HIGH) | lexical=25 pattern=38,$1 Bill High-Signal Serial 81887188 2021
+45654846,45654846,FULL HOUSE,three 4s and two 5s,Full House Fancy Serial Number 45654846 $1 2021 One Dollar Bill
+45654846,45654846,3 OF A KIND,4,3 Of A Kind 4s Fancy Serial Number $1 Dollar Bill 45654846 2021
+45654846,45654846,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 45654846 2021
+45654846,45654846,A1Z26 LETTER MAPPING,repaired=DEFEDHDF; ignore0=DEFEDHDF; zero_repairs=0,$1 Bill High-Signal Serial 45654846 2021
+45654846,45654846,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[DEFEDH, DEFED, EFEDH, DEFE, EFED, FEDH]",$1 Bill High-Signal Serial 45654846 2021
+45654846,45654846,HIGH-SIGNAL SCORE,44/100 (MEDIUM) | lexical=31 pattern=20,$1 Bill High-Signal Serial 45654846 2021
+77709737,77709737,3 IN A ROW,7,3 In A Row 7s LEADING Fancy Serial Number $1 Bill 77709737 2021
+77709737,77709737,5 OF A KIND,7,5 Of A Kind 7s Fancy Serial Number $1 Dollar Bill 77709737 2021
+77709737,77709737,BOOKENDS,7s at each end,Bookends Fancy Serial Number $1 Dollar Bill 77709737 2021
+77709737,77709737,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 77709737 2021
+77709737,77709737,A1Z26 LETTER MAPPING,repaired=GGGOIGCG; ignore0=GGGIGCG; zero_repairs=1,$1 Bill High-Signal Serial 77709737 2021
+77709737,77709737,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[GOIG, GGO, GOI, OIG, IGC, GGIG]",$1 Bill High-Signal Serial 77709737 2021
+77709737,77709737,HIGH-SIGNAL SCORE,50/100 (MEDIUM) | lexical=18 pattern=36,$1 Bill High-Signal Serial 77709737 2021
+16506628,16506628,3 OF A KIND,6,3 Of A Kind 6s Fancy Serial Number $1 Dollar Bill 16506628 2021
+16506628,16506628,A1Z26 LETTER MAPPING,repaired=AFEOFFBH; ignore0=AFEFFBH; zero_repairs=1,$1 Bill High-Signal Serial 16506628 2021
+16506628,16506628,LEXICAL SIGNAL MATCHES,"words=[OFF]; names=[none]; brands=[none]; readable=[AFEOF, AFEO, FEOF, AFE, FEO, EOF]",$1 Bill High-Signal Serial 16506628 2021
+16506628,16506628,HIGH-SIGNAL SCORE,39/100 (LOW) | lexical=27 pattern=16,$1 Bill High-Signal Serial 16506628 2021
+13834562,13834562,4-DIGIT LADDER,consecutive sequential run,$1 Bill Fancy Serial Ladder 4 Digit Ladder Run 13834562 2021
+13834562,13834562,A1Z26 LETTER MAPPING,repaired=ACHCDEFB; ignore0=ACHCDEFB; zero_repairs=0,$1 Bill High-Signal Serial 13834562 2021
+13834562,13834562,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CDEF, DEFB, ACH, CDE, DEF, EFB]",$1 Bill High-Signal Serial 13834562 2021
+13834562,13834562,HIGH-SIGNAL SCORE,38/100 (LOW) | lexical=24 pattern=16,$1 Bill High-Signal Serial 13834562 2021
+20354768,20354768,NO NOTABLE PATTERN,,Fancy Serial Number $1 Bill 20354768 2021
+20354768,20354768,A1Z26 LETTER MAPPING,repaired=BOCEDGFH; ignore0=BCEDGFH; zero_repairs=1,$1 Bill High-Signal Serial 20354768 2021
+20354768,20354768,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[BOCEDG, BOCED, OCEDG, BOCE, OCED, CEDG]",$1 Bill High-Signal Serial 20354768 2021
+20354768,20354768,HIGH-SIGNAL SCORE,26/100 (LOW) | lexical=25 pattern=0,$1 Bill High-Signal Serial 20354768 2021
+13553227,13553227,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 13553227 2021
+13553227,13553227,A1Z26 LETTER MAPPING,repaired=ACEECBBG; ignore0=ACEECBBG; zero_repairs=0,$1 Bill High-Signal Serial 13553227 2021
+13553227,13553227,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[ACEEC, ACEE, CEEC, ACE, CEE, EEC]",$1 Bill High-Signal Serial 13553227 2021
+13553227,13553227,HIGH-SIGNAL SCORE,36/100 (LOW) | lexical=26 pattern=12,$1 Bill High-Signal Serial 13553227 2021
+12360453,12360453,NO NOTABLE PATTERN,,Fancy Serial Number $1 Bill 12360453 2021
+12360453,12360453,A1Z26 LETTER MAPPING,repaired=ABCFODEC; ignore0=ABCFDEC; zero_repairs=1,$1 Bill High-Signal Serial 12360453 2021
+12360453,12360453,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CFODEC, CFODE, FODEC, CFOD, FODE, ODEC]",$1 Bill High-Signal Serial 12360453 2021
+12360453,12360453,HIGH-SIGNAL SCORE,32/100 (LOW) | lexical=25 pattern=8,$1 Bill High-Signal Serial 12360453 2021
+01140041,01140041,CELEBRITY BIRTHDAY DATASET MATCH,"January 14: 263 entries (e.g., Valdemar I of Denmark, Franchinus Gaffurius, Henry of Stolberg-Wernigerode) [MMDDYYYY]",$1 Bill Date-Match Fancy Serial Number 01140041 2021
+01140041,01140041,TRINARY,0s 1s & 4s,**TRUE TRINARY** $1 SERIES 2021 01140041 FANCY SERIAL NUMBER
+01140041,01140041,3 OF A KIND,0,3 Of A Kind 0s Fancy Serial Number $1 Dollar Bill 01140041 2021
+01140041,01140041,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 01140041 2021
+01140041,01140041,A1Z26 LETTER MAPPING,repaired=OAADOODA; ignore0=AADDA; zero_repairs=3,$1 Bill High-Signal Serial 01140041 2021
+01140041,01140041,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[ADOODA, ADOOD, DOODA, AADO, ADOO, DOOD]",$1 Bill High-Signal Serial 01140041 2021
+01140041,01140041,HIGH-SIGNAL SCORE,45/100 (MEDIUM) | lexical=21 pattern=28,$1 Bill High-Signal Serial 01140041 2021
+42247777,42247777,FULL HOUSE - QUAD,four 7s and two 4s,Full House QUAD Fancy Serial Number 42247777 $1 2021 One Dollar Bill
+42247777,42247777,TRINARY,2s 4s & 7s,**TRUE TRINARY** $1 SERIES 2021 42247777 FANCY SERIAL NUMBER
+42247777,42247777,4 IN A ROW,7,4 In A Row 7s TRAILING Fancy Serial Number $1 Bill 42247777 2021
+42247777,42247777,MULTIPLE PAIRS - QUAD DOUBLES,4 pairs,$1 DOLLAR BILL FOUR PAIRS OF #S QUAD DOUBLES FANCY SERIAL NUMBER 42247777 2021
+42247777,42247777,A1Z26 LETTER MAPPING,repaired=DBBDGGGG; ignore0=DBBDGGGG; zero_repairs=0,$1 Bill High-Signal Serial 42247777 2021
+42247777,42247777,LEXICAL SIGNAL MATCHES,words=[none]; names=[none]; brands=[none]; readable=[none],$1 Bill High-Signal Serial 42247777 2021
+42247777,42247777,HIGH-SIGNAL SCORE,38/100 (LOW) | lexical=4 pattern=28,$1 Bill High-Signal Serial 42247777 2021
+27127127,27127127,CELEBRITY BIRTHDAY DATASET MATCH,"December 27: 200 entries (e.g., Anne de Mortimer, John I Albert, Johann Arndt) [DDMMYYYY]",$1 Bill Date-Match Fancy Serial Number 27127127 2021
+27127127,27127127,TRINARY,1s 2s & 7s,**TRUE TRINARY** $1 SERIES 2021 27127127 FANCY SERIAL NUMBER
+27127127,27127127,3 OF A KIND,2,3 Of A Kind 2s Fancy Serial Number $1 Dollar Bill 27127127 2021
+27127127,27127127,DOUBLE BOOKENDS,27 at each end,Bookends Fancy Serial Number $1 Dollar Bill 27127127 2021
+27127127,27127127,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 27127127 2021
+27127127,27127127,A1Z26 LETTER MAPPING,repaired=BGABGABG; ignore0=BGABGABG; zero_repairs=0,$1 Bill High-Signal Serial 27127127 2021
+27127127,27127127,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[GABGAB, GABGA, ABGAB, BGAB, GABG, ABGA]",$1 Bill High-Signal Serial 27127127 2021
+27127127,27127127,HIGH-SIGNAL SCORE,54/100 (MEDIUM) | lexical=31 pattern=33,$1 Bill High-Signal Serial 27127127 2021
+00334471,00334471,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 00334471 2021
+00334471,00334471,A1Z26 LETTER MAPPING,repaired=OOCCDDGA; ignore0=CCDDGA; zero_repairs=2,$1 Bill High-Signal Serial 00334471 2021
+00334471,00334471,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[OOC, OCC, DGA]",$1 Bill High-Signal Serial 00334471 2021
+00334471,00334471,HIGH-SIGNAL SCORE,26/100 (LOW) | lexical=5 pattern=12,$1 Bill High-Signal Serial 00334471 2021
+22339957,22339957,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 22339957 2021
+22339957,22339957,A1Z26 LETTER MAPPING,repaired=BBCCIIEG; ignore0=BBCCIIEG; zero_repairs=0,$1 Bill High-Signal Serial 22339957 2021
+22339957,22339957,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CCI, CII, IEG]",$1 Bill High-Signal Serial 22339957 2021
+22339957,22339957,HIGH-SIGNAL SCORE,30/100 (LOW) | lexical=13 pattern=12,$1 Bill High-Signal Serial 22339957 2021
+43373325,43373325,4 OF A KIND,3,4 Of A Kind 3s Fancy Serial Number $1 Dollar Bill 43373325 2021
+43373325,43373325,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 43373325 2021
+43373325,43373325,A1Z26 LETTER MAPPING,repaired=DCCGCCBE; ignore0=DCCGCCBE; zero_repairs=0,$1 Bill High-Signal Serial 43373325 2021
+43373325,43373325,LEXICAL SIGNAL MATCHES,words=[none]; names=[none]; brands=[none]; readable=[CBE],$1 Bill High-Signal Serial 43373325 2021
+43373325,43373325,HIGH-SIGNAL SCORE,36/100 (LOW) | lexical=7 pattern=24,$1 Bill High-Signal Serial 43373325 2021
+73896176,73896176,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 73896176 2021
+73896176,73896176,A1Z26 LETTER MAPPING,repaired=GCHIFAGF; ignore0=GCHIFAGF; zero_repairs=0,$1 Bill High-Signal Serial 73896176 2021
+73896176,73896176,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CHIFAG, HIFAGF, CHIFA, HIFAG, IFAGF, CHIF]",$1 Bill High-Signal Serial 73896176 2021
+73896176,73896176,HIGH-SIGNAL SCORE,37/100 (LOW) | lexical=33 pattern=10,$1 Bill High-Signal Serial 73896176 2021
+53062905,53062905,BOOKENDS,5s at each end,Bookends Fancy Serial Number $1 Dollar Bill 53062905 2021
+53062905,53062905,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 53062905 2021
+53062905,53062905,A1Z26 LETTER MAPPING,repaired=ECOFBIOE; ignore0=ECFBIE; zero_repairs=2,$1 Bill High-Signal Serial 53062905 2021
+53062905,53062905,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[ECOFBI, ECOFB, COFBI, ECOF, COFB, OFBI]",$1 Bill High-Signal Serial 53062905 2021
+53062905,53062905,HIGH-SIGNAL SCORE,36/100 (LOW) | lexical=23 pattern=14,$1 Bill High-Signal Serial 53062905 2021
+44032992,44032992,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 44032992 2021
+44032992,44032992,A1Z26 LETTER MAPPING,repaired=DDOCBIIB; ignore0=DDCBIIB; zero_repairs=1,$1 Bill High-Signal Serial 44032992 2021
+44032992,44032992,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[DOCBI, DDOC, DOCB, OCBI, BIIB, DDO]",$1 Bill High-Signal Serial 44032992 2021
+44032992,44032992,HIGH-SIGNAL SCORE,34/100 (LOW) | lexical=22 pattern=12,$1 Bill High-Signal Serial 44032992 2021
+83543349,83543349,FULL HOUSE,three 3s and two 4s,Full House Fancy Serial Number 83543349 $1 2021 One Dollar Bill
+83543349,83543349,3 OF A KIND,3,3 Of A Kind 3s Fancy Serial Number $1 Dollar Bill 83543349 2021
+83543349,83543349,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 83543349 2021
+83543349,83543349,A1Z26 LETTER MAPPING,repaired=HCEDCCDI; ignore0=HCEDCCDI; zero_repairs=0,$1 Bill High-Signal Serial 83543349 2021
+83543349,83543349,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[HCED, CEDC, HCE, CED, EDC, CDI]",$1 Bill High-Signal Serial 83543349 2021
+83543349,83543349,HIGH-SIGNAL SCORE,39/100 (LOW) | lexical=24 pattern=18,$1 Bill High-Signal Serial 83543349 2021
+20120492,20120492,CELEBRITY BIRTHDAY DATASET MATCH,"December 20: 209 entries (e.g., Oronce Finé, John III, Paulus Melissus) [DDMMYYYY]",$1 Bill Date-Match Fancy Serial Number 20120492 2021
+20120492,20120492,FULL HOUSE,three 2s and two 0s,Full House Fancy Serial Number 20120492 $1 2021 One Dollar Bill
+20120492,20120492,3 OF A KIND,2,3 Of A Kind 2s Fancy Serial Number $1 Dollar Bill 20120492 2021
+20120492,20120492,BOOKENDS,2s at each end,Bookends Fancy Serial Number $1 Dollar Bill 20120492 2021
+20120492,20120492,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 20120492 2021
+20120492,20120492,A1Z26 LETTER MAPPING,repaired=BOABODIB; ignore0=BABDIB; zero_repairs=2,$1 Bill High-Signal Serial 20120492 2021
+20120492,20120492,LEXICAL SIGNAL MATCHES,"words=[BOD]; names=[none]; brands=[none]; readable=[BOABOD, OABODI, ABODIB, BOABO, OABOD, ABODI]",$1 Bill High-Signal Serial 20120492 2021
+20120492,20120492,HIGH-SIGNAL SCORE,51/100 (MEDIUM) | lexical=33 pattern=28,$1 Bill High-Signal Serial 20120492 2021
+19286250,19286250,NO NOTABLE PATTERN,,Fancy Serial Number $1 Bill 19286250 2021
+19286250,19286250,A1Z26 LETTER MAPPING,repaired=AIBHFBEO; ignore0=AIBHFBE; zero_repairs=1,$1 Bill High-Signal Serial 19286250 2021
+19286250,19286250,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[AIB, IBH, FBE, BEO]",$1 Bill High-Signal Serial 19286250 2021
+19286250,19286250,HIGH-SIGNAL SCORE,26/100 (LOW) | lexical=10 pattern=8,$1 Bill High-Signal Serial 19286250 2021
+15892772,15892772,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 15892772 2021
+15892772,15892772,A1Z26 LETTER MAPPING,repaired=AEHIBGGB; ignore0=AEHIBGGB; zero_repairs=0,$1 Bill High-Signal Serial 15892772 2021
+15892772,15892772,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[AEHIB, EHIBG, AEHI, EHIB, HIBG, AEH]",$1 Bill High-Signal Serial 15892772 2021
+15892772,15892772,HIGH-SIGNAL SCORE,36/100 (LOW) | lexical=29 pattern=10,$1 Bill High-Signal Serial 15892772 2021
+02090649,02090649,CELEBRITY BIRTHDAY DATASET MATCH,"February 09: 266 entries (e.g., Constantine XI Palaeologus, Ali-Shir Nava'i, Shimazu Yoshihisa) [MMDDYYYY]; September 02: 199 entries (e.g., Gilbert de Clare, Vincenzo Scamozzi, Georg Böhm) [DDMMYYYY]",$1 Bill Date-Match Fancy Serial Number 02090649 2021
+02090649,02090649,FULL HOUSE,three 0s and two 9s,Full House Fancy Serial Number 02090649 $1 2021 One Dollar Bill
+02090649,02090649,3 OF A KIND,0,3 Of A Kind 0s Fancy Serial Number $1 Dollar Bill 02090649 2021
+02090649,02090649,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 02090649 2021
+02090649,02090649,A1Z26 LETTER MAPPING,repaired=OBOIOFDI; ignore0=BIFDI; zero_repairs=3,$1 Bill High-Signal Serial 02090649 2021
+02090649,02090649,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[OBOI, OFDI, OBO, BOI, IOF, OFD]",$1 Bill High-Signal Serial 02090649 2021
+02090649,02090649,HIGH-SIGNAL SCORE,39/100 (LOW) | lexical=14 pattern=24,$1 Bill High-Signal Serial 02090649 2021
+30636409,30636409,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 30636409 2021
+30636409,30636409,A1Z26 LETTER MAPPING,repaired=COFCFDOI; ignore0=CFCFDI; zero_repairs=2,$1 Bill High-Signal Serial 30636409 2021
+30636409,30636409,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[COFC, COF, OFC, FDO, DOI, CFCFDI]",$1 Bill High-Signal Serial 30636409 2021
+30636409,30636409,HIGH-SIGNAL SCORE,32/100 (LOW) | lexical=17 pattern=12,$1 Bill High-Signal Serial 30636409 2021
+39261656,39261656,3 OF A KIND,6,3 Of A Kind 6s Fancy Serial Number $1 Dollar Bill 39261656 2021
+39261656,39261656,A1Z26 LETTER MAPPING,repaired=CIBFAFEF; ignore0=CIBFAFEF; zero_repairs=0,$1 Bill High-Signal Serial 39261656 2021
+39261656,39261656,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CIBFAF, IBFAFE, BFAFEF, CIBFA, IBFAF, BFAFE]",$1 Bill High-Signal Serial 39261656 2021
+39261656,39261656,HIGH-SIGNAL SCORE,42/100 (MEDIUM) | lexical=34 pattern=16,$1 Bill High-Signal Serial 39261656 2021
+40647799,40647799,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 40647799 2021
+40647799,40647799,A1Z26 LETTER MAPPING,repaired=DOFDGGII; ignore0=DFDGGII; zero_repairs=1,$1 Bill High-Signal Serial 40647799 2021
+40647799,40647799,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[DOFD, DOF, OFD, GGI, GII]",$1 Bill High-Signal Serial 40647799 2021
+40647799,40647799,HIGH-SIGNAL SCORE,30/100 (LOW) | lexical=14 pattern=12,$1 Bill High-Signal Serial 40647799 2021
+14254063,14254063,NO NOTABLE PATTERN,,Fancy Serial Number $1 Bill 14254063 2021
+14254063,14254063,A1Z26 LETTER MAPPING,repaired=ADBEDOFC; ignore0=ADBEDFC; zero_repairs=1,$1 Bill High-Signal Serial 14254063 2021
+14254063,14254063,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[ADBEDO, DBEDOF, BEDOFC, ADBED, DBEDO, BEDOF]",$1 Bill High-Signal Serial 14254063 2021
+14254063,14254063,HIGH-SIGNAL SCORE,34/100 (LOW) | lexical=28 pattern=8,$1 Bill High-Signal Serial 14254063 2021
+09900159,09900159,3 OF A KIND,0,3 Of A Kind 0s Fancy Serial Number $1 Dollar Bill 09900159 2021
+09900159,09900159,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 09900159 2021
+09900159,09900159,A1Z26 LETTER MAPPING,repaired=OIIOOAEI; ignore0=IIAEI; zero_repairs=3,$1 Bill High-Signal Serial 09900159 2021
+09900159,09900159,LEXICAL SIGNAL MATCHES,words=[none]; names=[none]; brands=[none]; readable=[none],$1 Bill High-Signal Serial 09900159 2021
+09900159,09900159,HIGH-SIGNAL SCORE,30/100 (LOW) | lexical=0 pattern=20,$1 Bill High-Signal Serial 09900159 2021
+31576667,31576667,FULL HOUSE,three 6s and two 7s,Full House Fancy Serial Number 31576667 $1 2021 One Dollar Bill
+31576667,31576667,3 IN A ROW,6,3 In A Row 6s  Fancy Serial Number $1 Bill 31576667 2021
+31576667,31576667,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 31576667 2021
+31576667,31576667,A1Z26 LETTER MAPPING,repaired=CAEGFFFG; ignore0=CAEGFFFG; zero_repairs=0,$1 Bill High-Signal Serial 31576667 2021
+31576667,31576667,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CAEG, CAE, AEG, EGF]",$1 Bill High-Signal Serial 31576667 2021
+31576667,31576667,HIGH-SIGNAL SCORE,36/100 (LOW) | lexical=17 pattern=18,$1 Bill High-Signal Serial 31576667 2021
+29408472,29408472,BOOKENDS,2s at each end,Bookends Fancy Serial Number $1 Dollar Bill 29408472 2021
+29408472,29408472,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 29408472 2021
+29408472,29408472,A1Z26 LETTER MAPPING,repaired=BIDOHDGB; ignore0=BIDHDGB; zero_repairs=1,$1 Bill High-Signal Serial 29408472 2021
+29408472,29408472,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[BIDOHD, BIDOH, IDOHD, BIDO, IDOH, DOHD]",$1 Bill High-Signal Serial 29408472 2021
+29408472,29408472,HIGH-SIGNAL SCORE,37/100 (LOW) | lexical=25 pattern=14,$1 Bill High-Signal Serial 29408472 2021
+35717756,35717756,FULL HOUSE,three 7s and two 5s,Full House Fancy Serial Number 35717756 $1 2021 One Dollar Bill
+35717756,35717756,3 OF A KIND,7,3 Of A Kind 7s Fancy Serial Number $1 Dollar Bill 35717756 2021
+35717756,35717756,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 35717756 2021
+35717756,35717756,A1Z26 LETTER MAPPING,repaired=CEGAGGEF; ignore0=CEGAGGEF; zero_repairs=0,$1 Bill High-Signal Serial 35717756 2021
+35717756,35717756,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CEGAGG, EGAGGE, GAGGEF, CEGAG, EGAGG, GAGGE]",$1 Bill High-Signal Serial 35717756 2021
+35717756,35717756,HIGH-SIGNAL SCORE,44/100 (MEDIUM) | lexical=34 pattern=18,$1 Bill High-Signal Serial 35717756 2021
+02025958,02025958,CELEBRITY BIRTHDAY DATASET MATCH,"February 02: 255 entries (e.g., James I of Aragon ' James the Conqueror' (1213-..., John, Bona Sforza) [MMDDYYYY]",$1 Bill Date-Match Fancy Serial Number 02025958 2021
+02025958,02025958,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 02025958 2021
+02025958,02025958,A1Z26 LETTER MAPPING,repaired=OBOBEIEH; ignore0=BBEIEH; zero_repairs=2,$1 Bill High-Signal Serial 02025958 2021
+02025958,02025958,LEXICAL SIGNAL MATCHES,"words=[none]; names=[BOB]; brands=[none]; readable=[OBOBEI, OBOBE, BOBEI, OBOB, BOBE, OBEI]",$1 Bill High-Signal Serial 02025958 2021
+02025958,02025958,HIGH-SIGNAL SCORE,42/100 (MEDIUM) | lexical=29 pattern=18,$1 Bill High-Signal Serial 02025958 2021
+40982569,40982569,NO NOTABLE PATTERN,,Fancy Serial Number $1 Bill 40982569 2021
+40982569,40982569,A1Z26 LETTER MAPPING,repaired=DOIHBEFI; ignore0=DIHBEFI; zero_repairs=1,$1 Bill High-Signal Serial 40982569 2021
+40982569,40982569,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[IHBEFI, IHBEF, HBEFI, DOIH, IHBE, HBEF]",$1 Bill High-Signal Serial 40982569 2021
+40982569,40982569,HIGH-SIGNAL SCORE,32/100 (LOW) | lexical=25 pattern=8,$1 Bill High-Signal Serial 40982569 2021
+79124999,79124999,3 IN A ROW,9,3 In A Row 9s TRAILING Fancy Serial Number $1 Bill 79124999 2021
+79124999,79124999,4 OF A KIND,9,4 Of A Kind 9s Fancy Serial Number $1 Dollar Bill 79124999 2021
+79124999,79124999,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 79124999 2021
+79124999,79124999,A1Z26 LETTER MAPPING,repaired=GIABDIII; ignore0=GIABDIII; zero_repairs=0,$1 Bill High-Signal Serial 79124999 2021
+79124999,79124999,LEXICAL SIGNAL MATCHES,"words=[none]; names=[GIA]; brands=[none]; readable=[GIAB, ABDI, GIA, IAB, ABD, BDI]",$1 Bill High-Signal Serial 79124999 2021
+79124999,79124999,HIGH-SIGNAL SCORE,46/100 (MEDIUM) | lexical=30 pattern=24,$1 Bill High-Signal Serial 79124999 2021
+14894770,14894770,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 14894770 2021
+14894770,14894770,A1Z26 LETTER MAPPING,repaired=ADHIDGGO; ignore0=ADHIDGG; zero_repairs=1,$1 Bill High-Signal Serial 14894770 2021
+14894770,14894770,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[ADHID, ADHI, DHID, HIDG, ADH, DHI]",$1 Bill High-Signal Serial 14894770 2021
+14894770,14894770,HIGH-SIGNAL SCORE,32/100 (LOW) | lexical=21 pattern=10,$1 Bill High-Signal Serial 14894770 2021
+23569043,23569043,NO NOTABLE PATTERN,,Fancy Serial Number $1 Bill 23569043 2021
+23569043,23569043,A1Z26 LETTER MAPPING,repaired=BCEFIODC; ignore0=BCEFIDC; zero_repairs=1,$1 Bill High-Signal Serial 23569043 2021
+23569043,23569043,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[CEFIOD, BCEFI, CEFIO, EFIOD, BCEF, CEFI]",$1 Bill High-Signal Serial 23569043 2021
+23569043,23569043,HIGH-SIGNAL SCORE,33/100 (LOW) | lexical=26 pattern=8,$1 Bill High-Signal Serial 23569043 2021
+14952492,14952492,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 14952492 2021
+14952492,14952492,A1Z26 LETTER MAPPING,repaired=ADIEBDIB; ignore0=ADIEBDIB; zero_repairs=0,$1 Bill High-Signal Serial 14952492 2021
+14952492,14952492,LEXICAL SIGNAL MATCHES,"words=[DIE]; names=[none]; brands=[none]; readable=[ADIEB, EBDIB, ADIE, DIEB, EBDI, BDIB]",$1 Bill High-Signal Serial 14952492 2021
+14952492,14952492,HIGH-SIGNAL SCORE,41/100 (MEDIUM) | lexical=37 pattern=12,$1 Bill High-Signal Serial 14952492 2021
+70201226,70201226,FULL HOUSE,three 2s and two 0s,Full House Fancy Serial Number 70201226 $1 2021 One Dollar Bill
+70201226,70201226,3 OF A KIND,2,3 Of A Kind 2s Fancy Serial Number $1 Dollar Bill 70201226 2021
+70201226,70201226,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 70201226 2021
+70201226,70201226,A1Z26 LETTER MAPPING,repaired=GOBOABBF; ignore0=GBABBF; zero_repairs=2,$1 Bill High-Signal Serial 70201226 2021
+70201226,70201226,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[GOBOAB, GOBOA, OBOAB, GOBO, OBOA, BOAB]",$1 Bill High-Signal Serial 70201226 2021
+70201226,70201226,HIGH-SIGNAL SCORE,39/100 (LOW) | lexical=23 pattern=18,$1 Bill High-Signal Serial 70201226 2021
+43435095,43435095,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 43435095 2021
+43435095,43435095,A1Z26 LETTER MAPPING,repaired=DCDCEOIE; ignore0=DCDCEIE; zero_repairs=1,$1 Bill High-Signal Serial 43435095 2021
+43435095,43435095,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[DCDCEO, DCDCE, DCE, CEO, DCDCEI, CEI]",$1 Bill High-Signal Serial 43435095 2021
+43435095,43435095,HIGH-SIGNAL SCORE,34/100 (LOW) | lexical=22 pattern=12,$1 Bill High-Signal Serial 43435095 2021
+90406960,90406960,FULL HOUSE,three 0s and two 9s,Full House Fancy Serial Number 90406960 $1 2021 One Dollar Bill
+90406960,90406960,3 OF A KIND,0,3 Of A Kind 0s Fancy Serial Number $1 Dollar Bill 90406960 2021
+90406960,90406960,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 90406960 2021
+90406960,90406960,A1Z26 LETTER MAPPING,repaired=IODOFIFO; ignore0=IDFIF; zero_repairs=3,$1 Bill High-Signal Serial 90406960 2021
+90406960,90406960,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[IODOFI, ODOFIF, DOFIFO, IODOF, ODOFI, DOFIF]",$1 Bill High-Signal Serial 90406960 2021
+90406960,90406960,HIGH-SIGNAL SCORE,41/100 (MEDIUM) | lexical=24 pattern=20,$1 Bill High-Signal Serial 90406960 2021
+42622455,42622455,FULL HOUSE,three 2s and two 4s,Full House Fancy Serial Number 42622455 $1 2021 One Dollar Bill
+42622455,42622455,3 OF A KIND,2,3 Of A Kind 2s Fancy Serial Number $1 Dollar Bill 42622455 2021
+42622455,42622455,MULTIPLE PAIRS,3 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 42622455 2021
+42622455,42622455,A1Z26 LETTER MAPPING,repaired=DBFBBDEE; ignore0=DBFBBDEE; zero_repairs=0,$1 Bill High-Signal Serial 42622455 2021
+42622455,42622455,LEXICAL SIGNAL MATCHES,"words=[none]; names=[DEE]; brands=[none]; readable=[BDE, DEE]",$1 Bill High-Signal Serial 42622455 2021
+42622455,42622455,HIGH-SIGNAL SCORE,37/100 (LOW) | lexical=16 pattern=20,$1 Bill High-Signal Serial 42622455 2021
+11137215,11137215,CELEBRITY BIRTHDAY DATASET MATCH,"November 13: 218 entries (e.g., Augustine of Hippo, Johann Eck, Philip I (the Generous)) [MMDDYYYY]",$1 Bill Date-Match Fancy Serial Number 11137215 2021
+11137215,11137215,3 IN A ROW,1,3 In A Row 1s LEADING Fancy Serial Number $1 Bill 11137215 2021
+11137215,11137215,4 OF A KIND,1,4 Of A Kind 1s Fancy Serial Number $1 Dollar Bill 11137215 2021
+11137215,11137215,MULTIPLE PAIRS,2 pairs,Multiple Pairs Fancy Serial Number $1 Dollar Bill 11137215 2021
+11137215,11137215,A1Z26 LETTER MAPPING,repaired=AAACGBAE; ignore0=AAACGBAE; zero_repairs=0,$1 Bill High-Signal Serial 11137215 2021
+11137215,11137215,LEXICAL SIGNAL MATCHES,"words=[none]; names=[none]; brands=[none]; readable=[AAC, ACG, GBA, BAE]",$1 Bill High-Signal Serial 11137215 2021
+11137215,11137215,HIGH-SIGNAL SCORE,45/100 (MEDIUM) | lexical=16 pattern=30,$1 Bill High-Signal Serial 11137215 2021

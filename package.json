@@ -1,0 +1,13 @@
+{
+  "name": "serialanalyzer-webapp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-web.mjs",
+    "preview": "npm run build && npx --yes serve dist -l 4173",
+    "netlify:dev": "npm run build && npx --yes netlify dev --dir dist",
+    "netlify:deploy": "npm run build && npx --yes netlify deploy --dir dist",
+    "netlify:deploy:prod": "npm run build && npx --yes netlify deploy --prod --dir dist"
+  }
+}

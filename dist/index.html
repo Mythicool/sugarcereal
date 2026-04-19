@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fancy Serial Analyzer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div class="orb orb-a" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+  <main class="app-shell">
+    <header class="hero">
+      <img class="logo-banner" src="./images/banner.png" alt="Fancy Serial Analyzer">
+      <p class="subtitle">
+        Paste serial numbers, run the Python analyzer in-browser, and review ranked collectible signals in a clean interface.
+      </p>
+    </header>
+
+    <section class="panel controls-panel">
+      <form id="analyzerForm" autocomplete="off">
+        <div class="grid two-up">
+          <label class="field">
+            <span>Serial Input</span>
+            <textarea id="serialInput" rows="8" placeholder="Paste serials, one per line, any text block, or as one continuous digit stream..."></textarea>
+            <small>Supports commas, dashes, OCR-style fixes (like O->0), `*` star-note markers, and continuous digits auto-chunked into 8-digit serials.</small>
+          </label>
+
+          <div class="field-stack">
+            <label class="field">
+              <span>Denomination</span>
+              <input id="denominationInput" type="text" value="$1">
+            </label>
+
+            <label class="field">
+              <span>Series</span>
+              <input id="seriesInput" type="text" value="2021">
+            </label>
+
+            <label class="switch">
+              <input id="datasetToggle" type="checkbox" checked>
+              <span>Use bundled date datasets (enabled by default)</span>
+            </label>
+
+            <details id="datasetSection" class="dataset-section">
+              <summary>Dataset overrides (optional)</summary>
+              <p>Built-in datasets are already included in the web app (birthdays, historical events, world events, US holidays, ZIP reference). Uploading here overrides the bundled file for this session.</p>
+              <label class="field">
+                <span>`birthdays.csv`</span>
+                <input id="birthdaysFile" type="file" accept=".csv,text/csv">
+              </label>
+              <label class="field">
+                <span>`World Important Dates.csv`</span>
+                <input id="historicalFile" type="file" accept=".csv,text/csv">
+              </label>
+              <label class="field">
+                <span>`disorder_events_sample.csv`</span>
+                <input id="eventsFile" type="file" accept=".csv,text/csv">
+              </label>
+              <label class="field">
+                <span>`us_public_holidays.csv`</span>
+                <input id="holidaysFile" type="file" accept=".csv,text/csv">
+              </label>
+              <label class="field">
+                <span>`us_zip_reference.csv`</span>
+                <input id="zipReferenceFile" type="file" accept=".csv,text/csv">
+              </label>
+            </details>
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button id="analyzeBtn" class="btn primary" type="submit">Analyze Serials</button>
+          <button id="sampleBtn" class="btn ghost" type="button">Load Sample</button>
+        </div>
+      </form>
+      <p id="statusLine" class="status idle">Ready.</p>
+    </section>
+
+    <section id="resultsSection" class="results" hidden>
+      <div class="summary-grid">
+        <article class="metric">
+          <h2>Serials</h2>
+          <p id="metricSerials">0</p>
+        </article>
+        <article class="metric">
+          <h2>Pattern Rows</h2>
+          <p id="metricRows">0</p>
+        </article>
+        <article class="metric">
+          <h2>Top High-Signal</h2>
+          <p id="metricTopScore">0</p>
+        </article>
+        <article class="metric">
+          <h2>Top Band</h2>
+          <p id="metricTopBand">LOW</p>
+        </article>
+      </div>
+
+      <article class="panel">
+        <div class="section-title-row">
+          <h2>Signal Ranking</h2>
+          <span class="mono">sorted by high-signal, lexical, pattern score</span>
+        </div>
+        <div class="toolbar-row">
+          <label class="field compact">
+            <span>Ranking Sort</span>
+            <select id="rankingSort">
+              <option value="high_desc">High Signal (desc)</option>
+              <option value="lex_desc">Lexical (desc)</option>
+              <option value="pattern_desc">Pattern (desc)</option>
+              <option value="serial_asc">Serial (asc)</option>
+            </select>
+          </label>
+          <button id="exportXlsxBtn" class="btn ghost" type="button">Export XLSX</button>
+          <button id="exportCsvBtn" class="btn ghost" type="button">Export CSV</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Serial</th>
+                <th>Band</th>
+                <th>High</th>
+                <th>Lexical</th>
+                <th>Pattern</th>
+                <th>Lexical Hits</th>
+              </tr>
+            </thead>
+            <tbody id="rankingTableBody"></tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="section-title-row">
+          <h2>Most Sellable Serials</h2>
+          <span class="mono">best overall resale candidates</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Serial</th>
+                <th>Sellability</th>
+                <th>High Signal</th>
+                <th>Top Pattern</th>
+                <th>Pattern Value</th>
+                <th>Pattern Count</th>
+              </tr>
+            </thead>
+            <tbody id="sellableTableBody"></tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="section-title-row">
+          <h2>Pattern Output</h2>
+          <span class="mono">grouped by serial</span>
+        </div>
+        <div class="toolbar-row">
+          <label class="field compact">
+            <span>Pattern Group Sort</span>
+            <select id="serialSort">
+              <option value="sellability_desc">Sellability (desc)</option>
+              <option value="high_desc">High Signal (desc)</option>
+              <option value="pattern_count_desc">Pattern Count (desc)</option>
+              <option value="serial_asc">Serial (asc)</option>
+            </select>
+          </label>
+          <label class="field compact">
+            <span>Pattern Filter</span>
+            <select id="patternFilter">
+              <option value="__ALL__">All Patterns</option>
+            </select>
+          </label>
+        </div>
+        <p id="patternFilterMeta" class="mono">Showing all serials.</p>
+        <div id="datasetWarnings" class="warnings" hidden></div>
+        <div id="zipQuickReference" class="warnings" hidden></div>
+        <div id="serialCards" class="serial-cards"></div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
